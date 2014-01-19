@@ -124,3 +124,8 @@ hr{
 	background-color: #000000;
 	height: 5px;
 }
+
+table, th, td{
+border: 3px solid black;
+padding: 1em;
+}
