@@ -1,7 +1,7 @@
 /*
-  Colour Palette
-  - Dark green: #060 - rgb(0, 100, 0)
-  - Dark red: #600 - rgb(100, 0, 0)
+  Colour Palette:
+	blue: #F1A0F8 rgba(241,160,248,1.00)
+	grey: #939393 rgba(147,147,NaN,1.00)
  */
  
  html {
@@ -66,7 +66,7 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-	color: rgba(15,137,151,1.00);
+	color: rgba(241,160,248,1.00);
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .brand-color{
-	color: rgba(15,137,151,1.00);
+	color: rgba(241,160,248,1.00);
 }
 
 ::selection {
