@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6,
 	color: #000000;
 }
 
-.alt-link a:link{
+ a:link{
 	color:#000000;
 	text-decoration: none;
 	border-bottom: 0.1em solid rgba(15,137,151,.5);
