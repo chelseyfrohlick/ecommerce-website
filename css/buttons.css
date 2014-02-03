@@ -15,13 +15,15 @@
 	border:0;
 	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 	font-style:normal;
+	text-decoration:none;	
 }
 
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited{
 	background-color: #939393;
-	background-image: linear-gradient(to bottom, #939393, #6d6d6d);	
+	background-image: linear-gradient(to bottom, #939393, #6d6d6d);
+	text-decoration:none;	
 }
 
 
