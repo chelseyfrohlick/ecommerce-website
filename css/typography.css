@@ -66,7 +66,7 @@ small, .milli {
 
 h1, h2, h3, h4, h5, h6,
 .brand {
-	color: rgba(241,160,248,1.00);
+	color: #906094;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 }
 
@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .brand-color{
-	color: rgba(241,160,248,1.00);
+	color: #906094;
 }
 
 ::selection {
@@ -88,7 +88,6 @@ h1, h2, h3, h4, h5, h6,
 	text-decoration: none;
 	border-bottom: 0.1em solid rgba(15,137,151,.5);
 	transition: all 20ms linear;
-	font-style:italic;
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 

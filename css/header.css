@@ -1,23 +1,23 @@
 @charset "UTF-8";
 /* CSS Document */
+header{
+	border-bottom: 3px solid #000000;
+}
+
 .logo{
-	width: 30%;
+	width: 20%;
 	float:left;
 }
 
 
 
 nav{
-	background-color: #FCB3F3;
 	overflow: auto;
 }
 
 
-nav ul{
-	display: block;
-}
 
-nav li {
+.main-nav li {
 	display:inline-block;
 	list-style:none;
 	text-decoration:none;
@@ -31,15 +31,19 @@ nav li {
 	font-weight:bold;
 	font-style:none;
 	text-decoration:none;
-	color:#FFFFFF;
-	padding-right:6rem;
-	padding-bottom:0;3
+	color:#000000;
+	border-bottom:none;
+	margin-right:15rem;
+}
+
+.main-nav li:first-child {
+	padding:0;
 }
 
 .main-nav a:hover,
 .main-nav a:focus,
 .main-nav a:active{
-	border-bottom: 2px #906094;
+	border-bottom: 2px solid #906094;
 }
 
 ul li:before {
