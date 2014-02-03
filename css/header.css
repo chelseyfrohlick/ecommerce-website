@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+nav ul{
+	display: block;
+}
+
+nav li {
+	display:inline-block;
+	list-style:none;
+	text-decoration:none;
+}
+
+.main-nav a,
+.main-nav a:link,
+.main-nav a:visited {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-style:none;
+	text-decoration:none;
+	color:rgba(0,0,0,1.00);
+}
+
+ul li:before {
+	content: "";
+}
+
+
