@@ -1,5 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
+.logo{
+	width: 30%;
+	float:left;
+}
+
+
+
+nav{
+	background-color: #FCB3F3;
+	overflow: auto;
+}
+
+
 nav ul{
 	display: block;
 }
@@ -18,7 +31,15 @@ nav li {
 	font-weight:bold;
 	font-style:none;
 	text-decoration:none;
-	color:rgba(0,0,0,1.00);
+	color:#FFFFFF;
+	padding-right:6rem;
+	padding-bottom:0;3
+}
+
+.main-nav a:hover,
+.main-nav a:focus,
+.main-nav a:active{
+	border-bottom: 2px #906094;
 }
 
 ul li:before {

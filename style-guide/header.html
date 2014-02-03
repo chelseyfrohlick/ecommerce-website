@@ -5,6 +5,8 @@
 <title>header</title>
 	<link href="../css/typography.css" rel="stylesheet">
     <link href="../css/header.css" rel="stylesheet">
+    <link href="../css/grid.css" rel="stylesheet">
+    <link href="../css/search-field.css" rel="stylesheet">
 </head>
 
 <body>
@@ -13,6 +15,13 @@
 			
 			
 			<nav>
+            	<img src="logo.svg" alt= "logo" class="logo">
+                <div id="tfheader">
+                        <form id="tfnewsearch" method="get" action="http://www.google.com">
+                                <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+                        </form>
+            	<div class="tfclear"></div>
+				</div>
 					<ul class="main-nav">
 						<li> <a href="#">page 1</a> </li>
 						<li> <a href="#">page 2</a> </li>
