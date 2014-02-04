@@ -11,18 +11,22 @@
 	overflow: hidden;
 	display: block;
 }
-	
 
-.social a {
+.social {
+	text-align:center;	
+}
+
+.social a:link {
 	text-align:center;
 	margin:auto;
+	border: 0;
 }
 
 .social li{
  	list-style-type:none;
 	margin:auto;
 	display:inline-block;
-	text-align:center;
+	margin: 0 2rem;
 }
 
 
