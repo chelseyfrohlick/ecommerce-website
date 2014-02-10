@@ -1,5 +1,4 @@
 .grid{
-	border:1px solid red;
 	overflow: hidden;
 }
 
@@ -13,7 +12,7 @@
 }
 
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 58em) {
 	
 	.unit-m-1-3{
 		width:33.3333%;
@@ -29,7 +28,7 @@
 }
 
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 70em) {
 	
 	.unit-l-1-3{
 		width:33.3333%;
