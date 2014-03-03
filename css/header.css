@@ -2,6 +2,7 @@
 /* CSS Document */
 header{
 	border-bottom: 3px solid #000000;
+	margin-bottom: 1em;
 }
 
 .logo{
@@ -50,6 +51,12 @@ ul li:before {
 	content: "";
 }
 
+.banner{
+	background:url(../images/banner.jpg) no-repeat center center;
+	background-size: cover;
+	padding: 5rem 1rem 1rem;
+}
 
-
-
+.banner h2{
+	color:#fff;
+}
