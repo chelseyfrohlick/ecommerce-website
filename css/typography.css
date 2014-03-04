@@ -4,6 +4,10 @@
 	grey: #939393 rgba(147,147,NaN,1.00)
  */
  
+*{
+	box-sizing: border-box;
+}
+ 
  html {
   font: normal 100%/1.5 Georgia,serif; /* 16px/24px */
 }
@@ -131,4 +135,9 @@ padding: 1em;
 
 .center{
 	text-align:center;
+}
+
+.img-flex{
+	width:100%;
+	display:block;
 }

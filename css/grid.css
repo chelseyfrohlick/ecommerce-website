@@ -11,6 +11,11 @@
 	
 }
 
+.gutter {
+	padding-left: .5em;
+	padding-right: .5em;
+	
+}
 
 @media only screen and (min-width: 58em) {
 	
@@ -25,6 +30,10 @@
 	.unit-m-1-2{
 		width:50%;
 	}
+	
+	.unit-m-2-3 {
+		width:66.6667%
+	}
 }
 
 
@@ -37,4 +46,11 @@
 	.unit-l-1-2 {
 		width:50%;
 	}
+	
+	.unit-l-2-3 {
+		width:66.6667%
+	}
+	
+	.unit-l{
+		width: 100%
 }
