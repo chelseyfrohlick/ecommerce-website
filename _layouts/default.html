@@ -2,19 +2,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Powder Puff</title>
+<title>{{page.title}} · Powder Puff</title>
 <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link href="../css/typography.css" rel="stylesheet">
+    <link href="../css/buttons.css" rel="stylesheet">
+    <link href="../css/large-promo.css" rel="stylesheet">
+    <link href="../css/product.css" rel="stylesheet">
     <link href="../css/grid.css" rel="stylesheet">
     <link href="../css/search-field.css" rel="stylesheet">
     <link href="../css/header.css" rel="stylesheet">
     <link href="../css/footer.css" rel="stylesheet">
-    <link href="../css/buttons.css" rel="stylesheet">
-    <link href="../css/large-promo.css" rel="stylesheet">
-    <link href="../css/product.css" rel="stylesheet">
     <link href="../css/small-promo.css" rel="stylesheet">
     
 </head>
@@ -32,14 +32,21 @@
             	<div class="tfclear"></div>
 				</div>
 					<ul class="main-nav">
-						<li> <a href="../">home</a> </li>
-						<li> <a href="../about/">about</a> </li>
+						<li> <a class="{% if page.url == '/' %}current{% endif %}" href="../">home</a> </li>
+						<li> <a class="{% if page.url contains '/about/' %}current{% endif %}"href="../about/">about</a> </li>
 						<li> <a href="#">page 3</a> </li>
                       <li> <a href="#">page 4</a> </li>
 					</ul>
 				</nav>
 			
 		</header>
+        
+        {% if page.showbanner %}
+<div class="banner">
+	<h2> {{page.bannertext}} </h2>
+    
+</div>
+{% endif %}
  
  {{content}}
  
