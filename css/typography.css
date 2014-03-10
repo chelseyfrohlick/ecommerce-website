@@ -6,6 +6,7 @@
  
 *{
 	box-sizing: border-box;
+	margin-bottom:1.5rem;
 }
  
  html {
@@ -140,4 +141,9 @@ padding: 1em;
 .img-flex{
 	width:100%;
 	display:block;
+}
+
+
+.product-info {
+	margin: 1.5rem 10%;
 }
