@@ -9,8 +9,11 @@
 	margin-bottom:1.5rem;
 }
  
- html {
+ 
+ 
+ html,body {
   font: normal 100%/1.5 Georgia,serif; /* 16px/24px */
+
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -147,3 +150,4 @@ padding: 1em;
 .product-info {
 	margin: 1.5rem 10%;
 }
+
