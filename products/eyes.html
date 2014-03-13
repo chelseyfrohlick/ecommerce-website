@@ -1,0 +1,28 @@
+---
+layout: default
+title: Eyes
+showbanner: yes
+bannertext: HUGE SALE 50% OFF!
+meta: "buy make-up online"
+---
+ 
+  
+  
+ 
+
+    <h1 class="big"> Eyes </h1>
+    
+     <div class="media unit-s-1 unit-m-1-3 unit-l-1-3">
+    
+        {% for makeup in site.pages %}
+        {% if makeup.type == 'eyes' %}
+
+        <a href="{{site.baseurl}}{{/makeup.url}}">
+        <img class="img-flex" src="{{site.baseurl}}/images/{{makeup.image}}" alt=""> 
+   
+         {{makeup.name}}
+
+        {% endif %}
+        {% endfor %}
+    </div>
+
