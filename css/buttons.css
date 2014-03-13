@@ -1,27 +1,26 @@
 @charset "UTF-8";
 /* CSS Document */
-
 .btn,
 .btn:link,
 .btn:visited{
 	display: inline-block;
 	padding: 0.75em 1em;
-	background-color:#F1A0F8 ;
-	background-image: linear-gradient(to bottom, #F1A0F8, #e759f3);
-	border-radius: 4px;
+	background-color:#000000;
 	box-shadow: 1px 1px 3px	rgba(0,0,0,0.5);
-	color: #fff;
+	color: #FFF;
 	font-weight: bold;
 	border:0;
 	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 	font-style:normal;
 	text-decoration:none;	
+	text-transform:uppercase;
 }
+
 
 .btn-alt,
 .btn-alt:link,
 .btn-alt:visited{
-	background-color: #939393;
+	background-color:rgba(0,0,0,0.5);
 	background-image: linear-gradient(to bottom, #939393, #6d6d6d);
 	text-decoration:none;	
 }
