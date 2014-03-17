@@ -67,3 +67,27 @@ ul li:before {
 .current{
 	opacity:.6;
 }
+
+
+.sub-nav a,
+.sub-nav a:link,
+.sub-nav a:visited {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-style:none;
+	text-decoration:none;
+	color:#000000;
+	border-bottom:none;
+	margin-right:4em;
+}
+
+.sub-nav li{
+	display:inline-block;
+}
+
+.sub-nav a:hover,
+.sub-nav a:focus,
+.sub-nav a:active{
+	border-bottom: 2px solid #906094;
+}

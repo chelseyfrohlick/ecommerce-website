@@ -103,21 +103,19 @@ h1, h2, h3, h4, h5, h6,
  a:link{
 	color:#000000;
 	text-decoration: none;
-	border-bottom: 0.1em solid rgba(15,137,151,.5);
 	transition: all 20ms linear;
-	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	
 }
 
 a:visited{
 	color:#939393;
-	border-bottom-color: rgba(113,153,109,0);
 }
 
 a:hover,
 a:focus,
 a:active{
 	color: #939393;
-	border-bottom-color: #000000;
 }
 
 ul{

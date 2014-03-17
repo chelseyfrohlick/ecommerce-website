@@ -11,18 +11,25 @@ meta: "buy make-up online"
  
 
     <h1 class="big"> Products </h1>
+    <ul class="sub-nav">
+    	<li> <a href="{{site.basurl}}/products/face/"> Face </a> </li>
+        <li> <a href="{{site.basurl}}/products/eyes/"> Eyes </a> </li>
     
-     <div class="media unit-s-1 unit-m-1-3 unit-l-1-3">
     
+    </ul> 
+    <div class="grid">
         {% for makeup in site.pages %}
         {% if makeup.category == 'makeup' %}
-
-        <a href="{{site.baseurl}}{{/makeup.url}}">
-        <img class="img-flex" src="{{site.baseurl}}/images/{{makeup.image}}" alt=""> 
+    		<div class="media unit unit-s-1 unit-m-1-3 unit-l-1-3">
+            	<a href="{{site.baseurl}}{{/makeup.url}}">
+            	<img class="img-flex" src="{{site.baseurl}}/images/{{makeup.image}}" alt=""> 
    
-         {{makeup.name}}
-
+         		<p class="center">{{makeup.name}}</p>
+                </a>
+			 </div>    
         {% endif %}
         {% endfor %}
-    </div>
+        
+      </div>
+   
 
