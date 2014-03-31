@@ -21,13 +21,13 @@
 </head>
 
 <body>
-<header>
+<header role="banner">
 			
 			
-			<nav>
+			<nav role="navigation">
             	<img src="{{site.baseurl}}/images/logo.svg" alt= "logo" class="logo img-flex">
                 <div id="tfheader">
-                        <form id="tfnewsearch" method="get" action="{{site.baseurl}}/search">
+                        <form role="search" id="tfnewsearch" method="get" action="{{site.baseurl}}/search">
                                 <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
                         </form>
             	<div class="tfclear"></div>
@@ -51,7 +51,7 @@
  
  {{content}}
  
- <footer>
+ <footer role="contentinfo">
  
                 <ul class="social">
 				<li>

@@ -5,27 +5,29 @@ showbanner: yes
 bannertext: HUGE SALE 50% OFF!
 meta: "buy make-up online"
 ---
+<main role="main">
 
-
-<div class="grid">
-
-<h1> Shopping Cart</h1>
-
-
-    <div class="media unit unit-s-1 unit-m-1-2 unit-l-2 center">
+    <div class="grid">
+    
+    <h1> Shopping Cart</h1>
+    
+    
+        <div class="media unit unit-s-1 unit-m-1-2 unit-l-2 center">
+            
+            {% include promo.html title="Urban Decay Naked Palette" %}
+            
+        </div>
         
-        {% include promo.html title="Urban Decay Naked Palette" %}
+        <div class="media unit unit-s-1 unit-m-1-2 unit-l-2">
+            
+            <h2> Items </h2>
+            <p> Urban Deckay Naked Palette Quantity: 1</p>
+            <a class="milli btn" href="{{site.baseurl}}/thank-you">Check out</a>
+            
+        </div>
+    
+    
         
     </div>
     
-    <div class="media unit unit-s-1 unit-m-1-2 unit-l-2">
-        
-        <h2> Items </h2>
-        <p> Urban Deckay Naked Palette Quantity: 1</p>
-        <a class="milli btn" href="{{site.baseurl}}/thank-you">Check out</a>
-        
-    </div>
-
-
-    
-</div>
+</main>
