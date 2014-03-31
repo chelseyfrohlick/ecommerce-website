@@ -6,6 +6,7 @@ type: eyes
 image: eyes/eyeliner.jpg
 ---
 
+
 **What it is:**
 A dynamic eyeliner pencil in a rainbow of shades.
 
@@ -19,4 +20,8 @@ Glide on color that stays put for the duration of your non-stop, on-the-go day! 
 
 **What else you need to know:**
 Created with 50 percent moisturizing ingredients suspended in a sophisticated waterproof formula, this brilliant collection of eye essentials offers long-lasting color and a dreamy, creamy feel when applied.
+
+<a class="milli btn" href="{{site.baseurl}}/cart">Add to Cart</a>
+
+
 

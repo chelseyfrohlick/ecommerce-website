@@ -21,3 +21,5 @@ In a consumer panel survey, the following results were reported:
 - 90% saw base-to-tip curl
 - 94% saw visible lift
 -100% saw long-wearing results
+
+<a class="milli btn" href="{{site.baseurl}}/cart">Add to Cart</a>

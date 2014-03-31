@@ -11,3 +11,5 @@ Black liquid eyeliner.
 
 **What it does:**
 The felt tip pen makes for an easy application, while the long lasting formula prevents smudging through out the day. This liquid eyeliner is a rich black that will make your eyes pop.
+
+<a class="milli btn" href="{{site.baseurl}}/cart">Add to Cart</a>

@@ -17,3 +17,5 @@ A romantic combination of colours, perfect to create a sultry fun look.
 - Sulfates 
 - Phthalates 
 
+<a class="milli btn" href="{{site.baseurl}}/cart">Add to Cart</a>
+

@@ -20,3 +20,5 @@ natural detoxifying effects of real cocoa powder with their signature bronzing p
 - Phthalates
 - GMOs
 - Triclosan 
+
+<a class="milli btn" href="{{site.baseurl}}/cart">Add to Cart</a>

@@ -13,3 +13,5 @@ A luxorious lipgloss.
 **What it does:**
 The ultra-sheer texture of this lipgloss provides comfortable all-day wear. The colour is a beautiful pink that will be sure to brighten up any complexion.
 
+<a class="milli btn" href="{{site.baseurl}}/cart">Add to Cart</a>
+

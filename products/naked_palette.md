@@ -11,3 +11,5 @@ An award-winning eye shadow palette.
 
 **What it does:**
 full of neutral colours perfect for everyday use. Urban Decays eyeshadows are luxiorious, creamy, and long-lasting. 
+
+<a class="milli btn" href="{{site.baseurl}}/cart">Add to Cart</a>

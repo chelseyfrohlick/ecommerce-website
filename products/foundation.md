@@ -11,3 +11,5 @@ An oil-free medium-to-full-coverage liquid foundation that covers skin imperfect
 
 **What it does:**
 This foundation creates a soft-focus effect, which is designed to meet the coverage concerns of those in the spotlight. It leaves your complexion with such a flawless finish, it can withstand bright or harsh lighting.
+
+<a class="milli btn" href="{{site.baseurl}}/cart">Add to Cart</a>
